@@ -8,22 +8,22 @@ const About = () => {
   const stats = [
     { 
       icon: <Calendar className="h-8 w-8 text-chess-gold" />,
-      value: "15+",
+      value: "10+",
       label: "Years of Excellence"
     },
     { 
       icon: <Users className="h-8 w-8 text-chess-emerald" />,
-      value: "1000+",
+      value: "500+",
       label: "Active Members"
     },
     { 
       icon: <Trophy className="h-8 w-8 text-chess-accent" />,
-      value: "200+",
+      value: "75+",
       label: "Tournaments Hosted"
     },
     { 
       icon: <Award className="h-8 w-8 text-chess-gold" />,
-      value: "50+",
+      value: "30+",
       label: "Champion Players"
     }
   ];
@@ -42,7 +42,7 @@ const About = () => {
               <span className="emerald-gradient">Elite Minds</span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Elite Minds Chess Club was founded with a vision to create a premier community where chess players of all levels can learn, grow, and connect.
+              Elite Minds Chess Club was founded in Nairobi with a vision to create a premier community where chess players of all levels can learn, grow, and connect.
             </p>
           </div>
           
@@ -52,10 +52,10 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6">Our Vision & Mission</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Elite Minds Chess Club was established in 2010 with a clear vision: to become the leading chess community that fosters intellectual growth, strategic thinking, and a passion for the game.
+                  Elite Minds Chess Club was established in 2014 with a clear vision: to become the leading chess community in Kenya that fosters intellectual growth, strategic thinking, and a passion for the game.
                 </p>
                 <p>
-                  Our mission is to make chess accessible to everyone, provide world-class training from masters, and build a vibrant community where players can connect, compete, and grow together.
+                  Our mission is to make chess accessible to everyone in East Africa, provide world-class training from masters, and build a vibrant community where players can connect, compete, and grow together.
                 </p>
                 <p>
                   We believe chess is more than just a game—it's a powerful tool for developing critical thinking, patience, foresight, and emotional resilience that benefits players throughout their lives.
@@ -67,29 +67,29 @@ const About = () => {
                 <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full">
                   <div className="bg-muted rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1586165368502-1bad197a6461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                      alt="Chess tournament"
+                      src="/uploads/chess-tournaments.jpg" 
+                      alt="Chess tournament in Nairobi"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="bg-muted rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                      alt="Chess coaching"
+                      src="/uploads/chess-coaching.jpg" 
+                      alt="Chess coaching session"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="bg-muted rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1642332882513-285553bd884a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                      src="/uploads/chess-players.jpg" 
                       alt="Elite chess players"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="bg-muted rounded-lg overflow-hidden">
                     <img 
-                      src="https://images.unsplash.com/photo-1585128993280-9456f2352278?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                      alt="Chess community"
+                      src="/uploads/chess-community.jpg" 
+                      alt="Chess community in Kenya"
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -132,7 +132,7 @@ const About = () => {
                 <Users className="h-12 w-12 text-chess-emerald mb-6" />
                 <h3 className="text-xl font-bold mb-4">Inclusive Community</h3>
                 <p className="text-muted-foreground">
-                  We create a welcoming environment where diverse players from all backgrounds and skill levels can connect and thrive.
+                  We create a welcoming environment where diverse players from all backgrounds and skill levels across Kenya can connect and thrive.
                 </p>
               </div>
               
@@ -146,27 +146,27 @@ const About = () => {
             </div>
           </div>
           
-          {/* Team section teaser */}
+          {/* Team section with African leadership */}
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-6">Our Leadership Team</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Elite Minds is led by a team of chess enthusiasts, champions, and educators dedicated to bringing the best chess experience to our community.
+              Elite Minds is led by a team of chess enthusiasts, champions, and educators dedicated to bringing the best chess experience to our community in Kenya.
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="chess-card overflow-hidden">
                 <div className="h-64 relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Sarah Johnson"
+                    src="/uploads/moses-terah.jpg" 
+                    alt="Mr. Moses Terah"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold">Sarah Johnson</h3>
-                  <p className="text-sm text-chess-gold mb-2">President & Founder</p>
+                  <h3 className="text-xl font-bold">Mr. Moses Terah</h3>
+                  <p className="text-sm text-chess-gold mb-2">Founder & President</p>
                   <p className="text-muted-foreground text-sm">
-                    International Master with 20+ years of experience in chess education.
+                    International Master with 15+ years of experience in chess education across East Africa.
                   </p>
                 </div>
               </div>
@@ -174,16 +174,16 @@ const About = () => {
               <div className="chess-card overflow-hidden">
                 <div className="h-64 relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Dr. David Chen"
+                    src="/uploads/wanjiku-kimani.jpg" 
+                    alt="Dr. Wanjiku Kimani"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold">Dr. David Chen</h3>
+                  <h3 className="text-xl font-bold">Dr. Wanjiku Kimani</h3>
                   <p className="text-sm text-chess-gold mb-2">Education Director</p>
                   <p className="text-muted-foreground text-sm">
-                    Developed our renowned chess curriculum and coach training program.
+                    Developed our renowned chess curriculum and coach training program for Kenyan youth.
                   </p>
                 </div>
               </div>
@@ -191,16 +191,16 @@ const About = () => {
               <div className="chess-card overflow-hidden">
                 <div className="h-64 relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1530577197743-7adf14294584?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Michael Rodriguez"
+                    src="/uploads/richard-omondi.jpg" 
+                    alt="Richard Omondi"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold">Michael Rodriguez</h3>
+                  <h3 className="text-xl font-bold">Richard Omondi</h3>
                   <p className="text-sm text-chess-gold mb-2">Tournament Director</p>
                   <p className="text-muted-foreground text-sm">
-                    Organizes our prestigious tournaments and competitive events.
+                    Organizes our prestigious tournaments and competitive events throughout East Africa.
                   </p>
                 </div>
               </div>

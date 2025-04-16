@@ -10,13 +10,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* About section */}
           <div>
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="relative w-10 h-10">
-                <div className="absolute inset-0 bg-gold-gradient rounded-full opacity-20 animate-glow"></div>
-                <div className="absolute inset-1 bg-chess-dark rounded-full flex items-center justify-center">
-                  <span className="text-chess-gold font-bold text-2xl">♞</span>
-                </div>
-              </div>
+            <div className="flex items-center space-x-3 mb-6">
+              <img src="/uploads/logo.png" alt="Elite Minds Chess Academy" className="h-14 w-auto" />
               <span className="text-xl font-bold tracking-tight">
                 <span className="gold-gradient">Elite Minds</span>
                 <span className="text-white"> Chess</span>
@@ -24,7 +19,7 @@ const Footer = () => {
             </div>
             
             <p className="text-muted-foreground mb-6">
-              Elite Minds Chess Club is dedicated to fostering strategic thinking, cognitive development, and a vibrant community of chess enthusiasts of all levels.
+              Elite Minds Chess Club is dedicated to fostering strategic thinking, cognitive development, and a vibrant community of chess enthusiasts of all levels in Nairobi and across Kenya.
             </p>
             
             <div className="flex space-x-4">
@@ -117,13 +112,18 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-chess-gold mt-0.5" />
                 <span className="text-muted-foreground">
-                  123 Chess Square<br />
-                  New York, NY 10001
+                  Elite Minds Chess Academy<br />
+                  Westlands, Nairobi<br />
+                  Kenya
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-chess-gold" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+254 733 127 696</span>
+              </li>
+              <li className="flex items-center">
+                <Phone className="h-5 w-5 mr-3 text-chess-gold" />
+                <span className="text-muted-foreground">+254 728 793 634</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-chess-gold" />

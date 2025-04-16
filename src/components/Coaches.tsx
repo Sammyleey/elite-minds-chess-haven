@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Calendar, Clock, BookOpen, Star, ChevronRight, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -7,42 +6,40 @@ const Coaches = () => {
   const coaches = [
     {
       id: 1,
-      name: "Grandmaster Alexandra Reynolds",
-      title: "International Grandmaster",
-      image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      rating: 2650,
+      name: "Mr. Moses Terah",
+      title: "International Master",
+      image: "/uploads/moses-terah.jpg",
+      rating: 2430,
       specialties: ["Strategic Gameplay", "Advanced Openings", "Tournament Preparation"],
       experience: "15+ years",
-      bio: "Alexandra is an International Grandmaster with multiple championship titles. She specializes in strategic gameplay and has coached several national champions.",
+      bio: "Moses is an International Master with multiple championship titles across East Africa. He specializes in strategic gameplay and has coached several national champions.",
       availability: "Mon, Wed, Fri",
       featured: true
     },
     {
       id: 2,
-      name: "Thomas Chen",
-      title: "International Master",
-      image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      rating: 2480,
+      name: "Emmanuel Mutisya",
+      title: "FIDE Master",
+      image: "/uploads/emmanuel-mutisya.jpg",
+      rating: 2320,
       specialties: ["Endgame Tactics", "Defense Strategies", "Youth Training"],
       experience: "10+ years",
-      bio: "Thomas excels in endgame tactics and defensive play. He has a passion for teaching youth players and has developed specialized training programs for various skill levels.",
+      bio: "Emmanuel excels in endgame tactics and defensive play. He has a passion for teaching youth players and has developed specialized training programs for various skill levels.",
       availability: "Tue, Thu, Sat"
     },
     {
       id: 3,
-      name: "Dr. Sophia Williams",
-      title: "FIDE Master & Chess Psychologist",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      rating: 2350,
+      name: "Dr. Wanjiku Kimani",
+      title: "Chess Psychologist & Coach",
+      image: "/uploads/wanjiku-kimani.jpg",
+      rating: 2250,
       specialties: ["Mental Preparation", "Pattern Recognition", "Competitive Psychology"],
       experience: "12+ years",
-      bio: "Dr. Williams combines her expertise in psychology and chess to provide a unique coaching approach focused on mental preparation and competitive psychology.",
+      bio: "Dr. Kimani combines her expertise in psychology and chess to provide a unique coaching approach focused on mental preparation and competitive psychology for tournament players.",
       availability: "Wed, Fri, Sun",
       featured: true
     }
   ];
-
-  const featuredCoaches = coaches.filter(coach => coach.featured);
 
   return (
     <section className="chess-section py-24 bg-card/50 relative overflow-hidden">
@@ -157,7 +154,7 @@ const Coaches = () => {
             
             <h3 className="text-2xl font-bold mb-4">Become a Coach</h3>
             <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
-              Are you a chess master with a passion for teaching? Join our team of elite coaches and help shape the next generation of chess champions.
+              Are you a chess master with a passion for teaching? Join our team of elite coaches and help shape the next generation of chess champions in Kenya.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center gap-4">

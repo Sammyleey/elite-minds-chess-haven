@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
@@ -44,14 +43,9 @@ const Header = () => {
       <div className="chess-container">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="relative w-10 h-10">
-              <div className="absolute inset-0 bg-gold-gradient rounded-full opacity-20 animate-glow"></div>
-              <div className="absolute inset-1 bg-chess-dark rounded-full flex items-center justify-center">
-                <span className="text-chess-gold font-bold text-2xl">♞</span>
-              </div>
-            </div>
-            <span className="text-xl font-bold tracking-tight">
+          <Link to="/" className="flex items-center space-x-3">
+            <img src="/uploads/logo.png" alt="Elite Minds Chess Academy" className="h-14 w-auto" />
+            <span className="text-xl font-bold tracking-tight hidden sm:block">
               <span className="gold-gradient">Elite Minds</span>
               <span className="text-white"> Chess</span>
             </span>
