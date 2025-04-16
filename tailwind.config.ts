@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				chess: {
+					dark: '#1A1F2C',
+					light: '#FDF5E6',
+					gold: '#D4AF37',
+					emerald: '#50C878',
+					accent: '#9b87f5',
+					muted: '#8E9196'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +92,47 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'chess-piece-float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(10px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'slide-in-right': {
+					'0%': { transform: 'translateX(100%)' },
+					'100%': { transform: 'translateX(0)' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.7' }
+				},
+				'rotate-board': {
+					'0%': { transform: 'perspective(1000px) rotateX(0deg)' },
+					'100%': { transform: 'perspective(1000px) rotateX(360deg)' }
+				},
+				'gradient-shift': {
+					'0%': { backgroundPosition: '0% 50%' },
+					'50%': { backgroundPosition: '100% 50%' },
+					'100%': { backgroundPosition: '0% 50%' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'piece-float': 'chess-piece-float 3s ease-in-out infinite',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'slide-in': 'slide-in-right 0.5s ease-out',
+				'glow': 'pulse-glow 2s ease-in-out infinite',
+				'rotate-3d': 'rotate-board 20s linear infinite',
+				'background-flow': 'gradient-shift 15s ease infinite'
+			},
+			backgroundImage: {
+				'hero-pattern': 'linear-gradient(to right, rgba(26, 31, 44, 0.8), rgba(26, 31, 44, 0.6)), url("/chess-background.jpg")',
+				'gold-gradient': 'linear-gradient(45deg, #D4AF37, #FBF5E6, #D4AF37)',
+				'emerald-gradient': 'linear-gradient(45deg, #50C878, #3CB371, #50C878)'
 			}
 		}
 	},
