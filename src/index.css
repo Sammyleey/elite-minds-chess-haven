@@ -150,11 +150,11 @@
   }
   
   .gold-gradient {
-    @apply bg-gold-gradient bg-clip-text text-transparent bg-300% animate-background-flow;
+    @apply bg-gold-gradient bg-clip-text text-transparent bg-[300%] animate-background-flow;
   }
   
   .emerald-gradient {
-    @apply bg-emerald-gradient bg-clip-text text-transparent bg-300% animate-background-flow;
+    @apply bg-emerald-gradient bg-clip-text text-transparent bg-[300%] animate-background-flow;
   }
   
   .floating-animation {
